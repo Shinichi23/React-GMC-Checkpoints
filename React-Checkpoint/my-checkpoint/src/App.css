@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.jumbotron {
+  opacity: 0.3;
+  text-align: center;
+  color: #282c34;
+  margin: 2% 20% 5% 20%;
+}
