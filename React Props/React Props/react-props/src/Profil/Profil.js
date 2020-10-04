@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 
 
 const Profil = props => {
+    console.log(props)
     return (
         <>
             <h1 stye={{color:"#FF7F50"}}><b>FullName: </b>{props.fullName}</h1>
@@ -12,8 +13,8 @@ const Profil = props => {
             
             <button  onClick={()=> props.handleName(props.fullName)} >Click</button>
         <div>
-            <img src={props.src} alt={props.alt} style={props.style}/>
-            {props.children}
+            <img src={props.children} alt={props.alt} style={props.style}/>
+            
         </div>        
         </>
     )
