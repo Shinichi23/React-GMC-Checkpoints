@@ -30,7 +30,7 @@ function ProductTable(props) {
 };
 
 ProductTable.propTypes = {
-  category: PropTypes.string,
+  category: PropTypes.oneOf(['Electronics', 'Clothes']),
   name: PropTypes.string,
   price: PropTypes.number
 };
