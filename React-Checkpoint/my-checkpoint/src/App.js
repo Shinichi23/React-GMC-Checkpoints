@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-undef */
 import React from 'react';
 import './App.css';
-import Form from 'react-bootstrap/Form'
+import Form from 'react-bootstrap/Form';
 import { Button, Jumbotron} from 'react-bootstrap';
 
 
